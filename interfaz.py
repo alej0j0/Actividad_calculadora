@@ -3,13 +3,7 @@ from division import dividir
 from sumar import suma
 from restar import resta
 
-def menu():
-    while True:
-        print("*" * 50)
-        print("Bienvenido a la calculadora en Python")
-        print("*" * 50)
-        print("Escoge entre las siguientes opciones: \n")
-        print("1. Sumar")
+@@ -11,6 +13,7 @@ def menu():
         print("2. Restar")
         print("3. Multiplicar")
         print("4. Dividir")
@@ -17,11 +11,7 @@ def menu():
         print("*" * 50)
 
         opcion = input("Ingrese el numero de la opcion que desea utilizar: ")
-
-        if opcion == "1":
-            print("Has elegido la suma")
-            suma()
-        elif opcion == "2":
+@@ -22,10 +25,12 @@ def menu():
             resta()
             print("Has elegido la resta")
         elif opcion == "3":
