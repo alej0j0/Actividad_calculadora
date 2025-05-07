@@ -1,9 +1,7 @@
-@@ -1,8 +1,8 @@
 def resta():
     print("*" * 50)
     print("Se encuentra en la seccion de resta")
     print("*" * 50)
-    print("\nPara salir de la suma, escriba 'fin'")
     print("\nPara salir de la resta, escriba 'fin'")
     lista = []
     while True:
