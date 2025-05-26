@@ -1,5 +1,5 @@
 def dividir():
-
+    
     print("*" * 50)
     print("Se encuentra en la seccion de division")
     print("*" * 50)

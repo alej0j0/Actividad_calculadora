@@ -1,5 +1,5 @@
 def multiplicacion():
-
+    
     print("*" * 50)
     print("Se encuentra en la seccion de multiplicacion")
     print("*" * 50)
